@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+
     <title>Contato</title>
 </head>
 <body>
@@ -31,18 +33,43 @@
         <h1>CONTATO</h1>
     </div>
 
-    <form action="contato.html">
+    <form action="contato.html" method="POST>
 
-        <label style="display: block;" for="email">Email</label>
-        <input id="email" type=email" name="email" placeholder="Coloque um email valido" />
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        <label for="assunto">Assunto:</label>
+        <input type="text" name="assunto" id="assunto">
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+    </form>>
 
-        <label style="display: block;" for="number">Numero</label>
-        <input type="number" id="number" type="number" name="number" placeholder="Seu numero aqui" />
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./LOGO BATMAN.jpeg" />
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Jorge Henrique Custódio</span>
 
-        <textarea style="display: block;" name="mensagem" id="mensagem" rows="10"></textarea>
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+               <a href="./index.html">
+                    <li>HOME</li>
+                </a>
+                <a href="./contato.html">
+                    <li>CONTATO</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>FOTOS</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>COMENTARIOS</li>
+                </a>
+            </ul>>
 
-        <button>Enviar</button>
-    </form>
+        </nav>
+
+    </footer>
 
 </body>
 </html>
