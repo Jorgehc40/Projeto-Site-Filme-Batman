@@ -1,0 +1,48 @@
+
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+  }
+  
+  .comment h3 {
+    margin-top: 0;
+  }
+  
+  .comment p {
+    margin-bottom: 0;
+  }
+  
+  .comment-form {
+    margin-top: 20px;
+
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+
+  }
+  
+  .comment-form button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+  }
+  
+  .comment-form button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,6 +1,5 @@
-﻿/*body {
+﻿body {
     font-family: Arial, sans-serif;
-    background-color: lightblue;
   }
 
   form {
@@ -8,22 +7,32 @@
     margin: 20px auto;
     padding: 20px;
     border: 1px solid black;
-    background-color: white;
-  }
+    }
 
   label {
     display: block;
     margin-bottom: 10px;
+    color: white;
+    
   }
 
   input, textarea {
     width: 100%;
+    height: 50px;
     margin-bottom: 20px;
+    background: white;
+  }
+
+  textarea {
+    height: 200px;
   }
 
   input[type=submit] {
-    width: auto;
+    width: 150px;
+    height: 40px;
     background-color: green;
     color: white;
     font-weight: bold;
-  }*/
+    cursor: pointer;
+    font-size: 20px;
+  }
